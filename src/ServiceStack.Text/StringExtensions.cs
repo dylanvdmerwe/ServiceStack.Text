@@ -26,9 +26,6 @@ using System.Threading.Tasks;
 
 #if WINDOWS_PHONE
 using System.IO.IsolatedStorage;
-#if  !WP8
-using ServiceStack.Text.WP;
-#endif
 #endif
 
 namespace ServiceStack.Text
